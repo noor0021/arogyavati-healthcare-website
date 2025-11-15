@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arogyavati | Contact Us</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container nav-container">
+            <a class="logo" href="index.html" aria-label="Arogyavati Home">
+                <img src="./images/logo.svg" alt="Arogyavati logo" class="logo-img" />
+                <span class="logo-text">Arogyavati</span>
+            </a>
+            <nav class="main-nav" aria-label="Primary">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a class="active" href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero sm">
+            <div class="container">
+                <h1>Contact Us</h1>
+                <p>We're here to help you on your wellness journey.</p>
+            </div>
+        </section>
+
+        <section class="container contact-grid">
+            <div>
+                <h2>Get in Touch</h2>
+                <form class="contact-form" action="#" method="post">
+                    <div class="form-row">
+                        <label for="name">Full Name</label>
+                        <input id="name" name="name" type="text" required placeholder="Your name">
+                    </div>
+                    <div class="form-row">
+                        <label for="email">Email</label>
+                        <input id="email" name="email" type="email" required placeholder="you@example.com">
+                    </div>
+                    <div class="form-row">
+                        <label for="phone">Phone</label>
+                        <input id="phone" name="phone" type="tel" placeholder="+91 98765 43210">
+                    </div>
+                    <div class="form-row">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="How can we help?"></textarea>
+                    </div>
+                    <div class="form-actions">
+                        <button class="btn btn-primary" type="submit">Send Message</button>
+                    </div>
+                </form>
+            </div>
+            <div>
+                <h2 id="appointment">Clinic & Appointments</h2>
+                <ul class="contact-info">
+                    <li><strong>Address:</strong> 123 Greenway, Wellness Nagar, India</li>
+                    <li><strong>Email:</strong> care@arogyavati.com</li>
+                    <li><strong>Phone:</strong> +91 90000 00000</li>
+                </ul>
+                <div class="map-placeholder" aria-label="Map placeholder">
+                    <img src="./images/map-placeholder.jpg" alt="Map placeholder">
+                </div>
+                <p class="muted">Map is a placeholder. Interactive map to be added in Phase 2.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div>
+                <strong>Arogyavati</strong>
+                <p>Holistic Ayurvedic Care for modern lives.</p>
+            </div>
+            <div>
+                <strong>Quick Links</strong>
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <strong>Follow Us</strong>
+                <ul class="socials">
+                    <li><a href="#" aria-label="Facebook">Facebook</a></li>
+                    <li><a href="#" aria-label="Instagram">Instagram</a></li>
+                    <li><a href="#" aria-label="LinkedIn">LinkedIn</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span>2025</span> Arogyavati. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
