@@ -7,13 +7,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="about.css">
+    
 </head>
 <body>
     <header class="site-header">
         <div class="container nav-container">
             <a class="logo" href="index.html" aria-label="Arogyavati Home">
-                <img src="./images/logo.svg" alt="Arogyavati logo" class="logo-img" />
+                <img src="./assets/images/images/logo.jpg" alt="Arogyavati logo" class="logo-img" />
                 <span class="logo-text">Arogyavati</span>
             </a>
             <nav class="main-nav" aria-label="Primary">
@@ -29,48 +30,55 @@
     </header>
 
     <main>
-        <section class="page-hero sm">
+        <section class="page-hero">
             <div class="container">
                 <h1>About Arogyavati</h1>
-                <p>Bringing Ayurvedas timeless care to todays families.</p>
-            </div>
-        </section>
-
-        <section class="container two-col">
-            <div>
-                <h2>Our Story</h2>
-                <p>
-                    Arogyavati was founded to make trustworthy Ayurvedic healthcare accessible to all.
-                    From humble beginnings, we haveve grown into a community-focused brand combining classical
-                    formulations with modern quality standards and hygienic clinical care.
-                </p>
-                <h2>Mission & Vision</h2>
-                <ul class="bullet-list">
-                    <li><strong>Mission:</strong> Deliver authentic, safe, and effective Ayurvedic care.</li>
-                    <li><strong>Vision:</strong> A healthier world that embraces natural healing.</li>
-                </ul>
-            </div>
-            <div>
-                <h2>Ayurveda & Natural Healing</h2>
-                <p>
-                    Ayurveda views health as a balance of energies—Vata, Pitta, and Kapha. By understanding
-                    your unique constitution, we recommend herbs, diets, and therapies that gently restore
-                    harmony without harsh side effects.
-                </p>
-                <div class="figure">
-                    <img src="./images/about-ayurveda.jpg" alt="Herbal ingredients and Ayurvedic preparation">
-                    <figcaption>Tradition guided by modern quality and purity.</figcaption>
-                </div>
+                <p>Bringing Ayurveda's timeless care to today's families.</p>
             </div>
         </section>
 
         <section class="container">
-            <h2>Our Founder</h2>
-            <div class="card founder">
-                <img src="./images/founder.jpg" alt="Photo of the founder/doctor">
-                <div>
+            <div class="two-col">
+                <div class="about-content">
+                    <h2>Our Story</h2>
+                    <p>
+                        Arogyavati was founded to make trustworthy Ayurvedic healthcare accessible to all.
+                        From humble beginnings, we have grown into a community-focused brand combining classical
+                        formulations with modern quality standards and hygienic clinical care.
+                    </p>
+                    
+                    <h3>Mission & Vision</h3>
+                    <ul class="bullet-list" >
+                        <li><strong>Mission:</strong> Deliver authentic, safe, and effective Ayurvedic care.</li>
+                        <li><strong>Vision:</strong> A healthier world that embraces natural healing.</li>
+                    </ul>
+                </div>
+                
+                <div class="about-image">
+                    <h2>Ayurveda & Natural Healing</h2>
+                    <p>
+                        Ayurveda views health as a balance of energies—Vata, Pitta, and Kapha. By understanding
+                        your unique constitution, we recommend herbs, diets, and therapies that gently restore
+                        harmony without harsh side effects.
+                    </p>
+                    <div class="figure card" style="border: none; box-shadow: none;"> 
+                        <img src="./images/about-ayurveda.jpg" alt="Herbal ingredients and Ayurvedic preparation">
+                        <figcaption>Tradition guided by modern quality and purity.</figcaption>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container founder-section">
+            <h2 class="text-center">Meet Our Founder</h2>
+            <div class="founder-card">
+                <div class="founder-img-wrapper">
+                    <img src="https://mehtahospital.com/wp-content/uploads/2024/09/dr-ganabalan-pedi-department.webp" alt="Dr. A. Narayan">
+                </div>
+                <div class="founder-info">
                     <h3>Dr. A. Narayan</h3>
-                    <p>Lead Ayurvedic Physician with 15+ years in Panchakarma and preventive care.</p>
+                    <span class="designation">Lead Ayurvedic Physician</span>
+                    <p>With 15+ years of experience in Panchakarma and preventive care, Dr. Narayan is dedicated to bridging the gap between ancient wisdom and modern lifestyle needs.</p>
                 </div>
             </div>
         </section>
@@ -84,7 +92,7 @@
             </div>
             <div>
                 <strong>Quick Links</strong>
-                <ul>
+                <ul type="none">
                     <li><a href="about.html">About</a></li>
                     <li><a href="products.html">Products</a></li>
                     <li><a href="services.html">Services</a></li>
@@ -93,7 +101,7 @@
             </div>
             <div>
                 <strong>Follow Us</strong>
-                <ul class="socials">
+                <ul class="socials" type="none">
                     <li><a href="#" aria-label="Facebook">Facebook</a></li>
                     <li><a href="#" aria-label="Instagram">Instagram</a></li>
                     <li><a href="#" aria-label="LinkedIn">LinkedIn</a></li>
@@ -106,3 +114,4 @@
     </footer>
 </body>
 </html>
+

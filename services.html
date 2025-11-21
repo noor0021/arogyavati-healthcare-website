@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arogyavati | Services</title>
-
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="services.css">
+    
+    
 </head>
 
 <body>
@@ -17,7 +18,7 @@
     <header class="site-header">
         <div class="container nav-container">
             <a class="logo" href="index.html" aria-label="Arogyavati Home">
-                <img src="./images/logo.svg" alt="Arogyavati logo" class="logo-img" />
+                <img src="./assets/images/images/logo.jpg" alt="Arogyavati logo" class="logo-img" />
                 <span class="logo-text">Arogyavati</span>
             </a>
 
@@ -42,30 +43,38 @@
             </div>
         </section>
 
-        <section class="container service-grid">
-            <article class="service-card">
-                <img src="./images/services/consultation.png" alt="Doctor Consultation Icon">
-                <h3>Doctor Consultation</h3>
-                <p>Personalized diagnosis and lifestyle guidance based on your prakriti.</p>
-            </article>
+        <section class="container">
+            <div class="service-grid">
+                <article class="service-card">
+                    <img src="./images/services/consultation.png" alt="Doctor Consultation" onerror="this.src='https://img.icons8.com/color/96/doctor-male.png'">
+                    <h3>Doctor Consultation</h3>
+                    <p>Personalized diagnosis and lifestyle guidance based on your unique Prakriti and dosha balance.</p>
+                </article>
 
-            <article class="service-card">
-                <img src="./images/services/panchakarma.png" alt="Panchakarma Therapy Icon">
-                <h3>Panchakarma Therapy</h3>
-                <p>Detoxifying therapies to restore balance and vitality.</p>
-            </article>
+                <article class="service-card">
+                    <img src="./images/services/panchakarma.png" alt="Panchakarma Therapy" onerror="this.src='https://img.icons8.com/color/96/massage.png'">
+                    <h3>Panchakarma Therapy</h3>
+                    <p>Detoxifying therapies including Abhyanga, Shirodhara, and Basti to restore deep vitality.</p>
+                </article>
 
-            <article class="service-card">
-                <img src="./images/services/lab-tests.png" alt="Lab Tests Icon">
-                <h3>Lab Tests</h3>
-                <p>Essential lab work and assessments to inform your treatment plan.</p>
-            </article>
+                <article class="service-card">
+                    <img src="./images/services/lab-tests.png" alt="Lab Tests" onerror="this.src='https://img.icons8.com/color/96/microscope.png'">
+                    <h3>Lab Tests</h3>
+                    <p>Essential modern diagnostics and pathology assessments to scientifically inform your treatment.</p>
+                </article>
 
-            <article class="service-card">
-                <img src="./images/services/pharmacy.png" alt="Pharmacy Icon">
-                <h3>Pharmacy</h3>
-                <p>In-house, quality-assured Ayurvedic medicines and supplements.</p>
-            </article>
+                <article class="service-card">
+                    <img src="./images/services/pharmacy.png" alt="Pharmacy" onerror="this.src='https://img.icons8.com/color/96/pills.png'">
+                    <h3>In-House Pharmacy</h3>
+                    <p>Access to authentic, quality-assured Ayurvedic medicines and herbal supplements on-site.</p>
+                </article>
+            </div>
+            
+            <div class="cta-section">
+                <h2>Ready to start your healing journey?</h2>
+                <p>Book an appointment with our experts today.</p>
+                <a href="contact.html" class="btn">Book Appointment</a>
+            </div>
         </section>
 
     </main>
